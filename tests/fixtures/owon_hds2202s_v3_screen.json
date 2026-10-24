@@ -1,0 +1,65 @@
+{
+  "header": {
+    "TIMEBASE": {
+      "SCALE": "500us",
+      "HOFFSET": 0
+    },
+    "SAMPLE": {
+      "FULLSCREEN": 600,
+      "SLOWMOVE": -1,
+      "DATALEN": 600,
+      "SAMPLERATE": "500KSa/s",
+      "TYPE": "SAMPle",
+      "DEPMEM": "4K"
+    },
+    "CHANNEL": [
+      {
+        "NAME": "CH1",
+        "DISPLAY": "ON",
+        "COUPLING": "DC",
+        "PROBE": "10X",
+        "SCALE": "1.00 V",
+        "OFFSET": -75,
+        "FREQUENCE": 995.22296
+      },
+      {
+        "NAME": "CH2",
+        "DISPLAY": "ON",
+        "COUPLING": "DC",
+        "PROBE": "10X",
+        "SCALE": "2.00 V",
+        "OFFSET": -114,
+        "FREQUENCE": 0.0
+      }
+    ],
+    "DATATYPE": "SCREEN",
+    "RUNSTATUS": "AUTo",
+    "IDN": "owon_v1.2",
+    "MODEL": "HDS2202S_LS",
+    "Trig": {
+      "Mode": "SINGle",
+      "Type": "Edge",
+      "Items": {
+        "Channel": "CH1",
+        "Level": "3.72 V",
+        "Edge": "RISe",
+        "Coupling": "DC",
+        "Sweep": "AUTo"
+      }
+    }
+  },
+  "payload_hex": [
+    "3532373435313534353239353534353435343b34353435343533353335323833353435333534353435333534353435343534353335343534353435353534353537343534353435343534373435343534353435343734373435343534373437343734373435343535373537343833353435343834353435333731353437353834373538343534393437343934353435343734373435343834353438343734383438343532383438353a33353435343834383538343734353439343834373537353534383337343835373435343834373439343534373435353534353335343535383438353834373435343834373438353534383437333534383335343534383437333834353435343533353435333735353437333534353435343533353335333533353335353533353435333534353435323534353335343534353435343a343533353435333533353335333534353235333532353435353532373535333534353435323534353335343533353235353533383535353531353435343533353535313533353135343534353135333532353435343531353435323534353335343535393235333734353135323533383435343733373435323532353439343533353235323734353235333533353435343533353435333534353435323534353335343534353337343533353435343532353435343535353337333534353435343534353435343533353435343535383438353535353435343734373435303534373438343534373435343834353438343734353437343834383137343534383335343834353435343734353438343533353535343a343534",
+    "cecbcecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecdcecccecccecccdcccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecbcecccecccecccecccecccecccecccecccecccecccecccdcccecccecccecccecdcecccecccdcccecccecccecccecccecccecccecccecccecccecccecccfcccecccecccecccecccecccecccecccecccecccecccecbcdcccecccecccecccecccecccecccdcccecccecccdcccecccecccecccecccecccecccdcccecdcecccecccecccdcccecccecccecccecccecccecccecdcecccecccdcdcecccecccecccecdcecccecccecccecdcecccecccecccecccecccecccecccecccecdcecccecccecccecccecccecdcecccecdcecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccdcccecccecccecccecdcecccecccecdcecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccecccdcccecccecccecccdcccecccecccecccdcccecccecccecccecccdcccecccecccecccecccecccecccecccecccecccecccecccecccecccecccdcccecccecccecccecccecccecccecccdcdcecccecccecccecccecdcecccecccecccecccecccecccecccecccecccdcccecccecccecccecccecccecdcecccecccecccecccecccecccecccecdcecccecccecccecdcecccecccecccecdcecccecccecccecccecccecccecccecdcecccecccecccecdcecccecccecccdcccecccecccecccecccecccecccecccecccecccecccecccecdcecccecccecccecccecc"
+  ],
+  "channel_scale_queries": [
+    "1e+00",
+    "2e+00"
+  ],
+  "channel_average_queries": [
+    "5.1400e+00",
+    "5.0500e+00"
+  ],
+  "provenance": "Operator-requested read-only HDS2202S V3.0.0 check, 2026-10-21; sequential SCPI readings, not external calibration",
+  "source_report": "peltier_model/results/owon_connection_20261021/attempt_03.json"
+}
